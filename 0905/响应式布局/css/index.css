@@ -1,0 +1,28 @@
+/* 小于768宽度100% */
+@media screen and (max-width:767px) {
+    .content-topbar {
+        width: 100%;
+    }
+    .content-topbar .content ul li {
+        width: 33.33%;
+    }
+}
+
+@media screen and (min-width:768px) {
+    .content-topbar {
+        width: 750px;
+    }
+
+}
+
+@media screen and (min-width:992px) {
+    .content-topbar {
+        width: 970px;
+    }
+}
+
+@media screen and (min-width:1200px) {
+    .content-topbar {
+        width: 1170px;
+    }
+}

@@ -1,0 +1,30 @@
+@media screen and (min-width: 750px) {
+    html{
+        font-size: 75px !important;
+    }
+}
+
+body {
+    width: 10rem;
+    min-width: 320px;
+    max-width: 750px;
+    line-height: 1.5;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, STHeiTi, sans-serif;
+}
+/*
+插件默认html大小是16px
+设计图是750 分成十等分 75px
+*/
+.search-header{
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%);
+    width: 10rem;
+    height: 1.1733rem;
+    background-color: #f4203c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}

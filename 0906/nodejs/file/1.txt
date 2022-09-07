@@ -1,0 +1,31 @@
+小红=12 小白=100 小兰=90
+// const fs = require('fs');
+// fs.readFile( path.join(__dirname,'./file/1.txt'), 'utf-8', function (err, dataStr) {
+//     if (err) {
+//         console.log(err);
+//     }
+//     console.log(dataStr);
+//     const arrOld = dataStr.split(' '); //以空格分隔
+//     console.log(arrOld);
+//     const arrNew = [];
+//     arrOld.forEach(item => {
+//         arrNew.push(item.replace("=",":"));
+//     });
+//     console.log(arrNew);
+//     const newStr = arrNew.join('\r\n');
+//     console.log(newStr);
+// });
+
+
+// fs.writeFile('./file/1.txt','aoko',function(err,dataStr){
+//     if(err){
+
+//     }else{
+//         console.log(dataStr);
+//     }
+// })
+
+// const fpath = '/a/m/index.html';
+// const nameWithout = path.basename(fpath,'.html');
+// const nameExpend = path.extname(fpath);//文件扩展名
+// console.log(nameWithout);

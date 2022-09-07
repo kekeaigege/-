@@ -1,0 +1,76 @@
+//750px设计稿 把整个平米分为15等份 把每一份作为  html字体大小 750/15 = 50
+//一个100*100像素的页面元素在750屏幕下 就是 100/50 转换成rem就是 2rem *2rem
+//在320px 把整个平米分为15等份 字体大小就是320/15 html字体大小就是21.33px
+//320屏幕下 html文字大小是21.33 则 2rem=42.66px
+//公式:页面元素的rem值 = 页面元素px /(屏幕宽度/划分分数)
+//屏幕宽度/划分分数 就是html font-size的大小
+//一定写在最上面
+html{
+    font-size: 50px;
+}
+@no: 15;//划分分数
+@media screen and (min-width: 320px){
+    html{
+        font-size: (320px / @no);
+    }
+}
+
+@media screen and (min-width: 360px){
+    html{
+        font-size: (360px / @no);
+    }
+}
+
+@media screen and (min-width: 375px){
+    html{
+        font-size: (375px / @no);
+    }
+}
+
+@media screen and (min-width: 384px){
+    html{
+        font-size: (384px / @no);
+    }
+}
+
+@media screen and (min-width: 400px){
+    html{
+        font-size: (400px / @no);
+    }
+}
+
+@media screen and (min-width: 414px){
+    html{
+        font-size: (414px / @no);
+    }
+}
+
+@media screen and (min-width: 424px){
+    html{
+        font-size: (424px / @no);
+    }
+}
+
+@media screen and (min-width: 480px){
+    html{
+        font-size: (480px / @no);
+    }
+}
+
+@media screen and (min-width: 540px){
+    html{
+        font-size: (540px / @no);
+    }
+}
+
+@media screen and (min-width: 720px){
+    html{
+        font-size: (720px / @no);
+    }
+}
+
+@media screen and (min-width: 750px){
+    html{
+        font-size: (750px / @no);
+    }
+}
